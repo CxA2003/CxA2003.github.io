@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <nav>
+        <button id="dropdown-toggle">Menu</button>
+        <ul id="dropdown-menu">
+            <li><a href="#inicio">Inicio</a></li>
+            <li><a href="#servicio">Servicio</a></li>
+            <li><a href="#contactame">Contáctame</a></li>
+        </ul>
+        </nav>
+    <img src="./Assets/logo.svg" alt="Logo">
+    <ul id="navbar-options">
+        <li><a href="#main-section">Inicio</a></li>
+        <li><a href="#servicio">Servicio</a></li>
+        <li><a href="#contactame">Contáctame</a></li>
+    </ul>
+    <label class="dark-mode-toggle">
+        <input type="checkbox" id="dark-mode-toggle">
+        <span class="slider round"></span>
+    </label>
+    </header>
+
+<main>
+    <section class="main-section" id="inicio">
+        <div class="content">
+            <h1>Cesar Fernández</h1>
+            <h2>Computer Scientist in Progress</h2>
+        </div>
+        <div class="main-section-image">
+        <img src="./Assets/Photo_library.jpeg" alt="Image">
+        </div>
+    </section>
+    <section class="gallery-section" id="servicio">
+        <div>
+            <h3>Ayudo a hacer crecer tu marca usando herramientas digitales</h3>
+            <div class="gallery">
+                <img src="./Assets/Code.svg" alt="Image 1">
+                <img src="./Assets/Website.svg" alt="Image 2">
+                <img src="./Assets/Bussiness.svg" alt="Image 3">
+                <button id="prev-button">Prev</button>
+                <button id="next-button">Next</button>
+            </div>
+        </div>
+    </section>
+    <section class="timeline">
+        <h2>Proceso de Desarrollo</h2>
+        <div class="timeline-container">
+            <div class="timeline-column">
+                <div class="timeline-blocks-left">
+                    <div class="timeline-block">
+                        <h3>Investigación</h3>
+                        <p>Durante esta fase busco entender tu objetivo como marca, tu público y la impresión que buscamos dejar</p>
+                    </div>
+                    <div class="timeline-block">
+                        <h3>Diseño</h3>
+                        <p>Se desarrolla un prototipo en base a la planificación, mostrando el orden y funcionamiento básico de la página</p>
+                    </div>
+                    <div class="timeline-block">
+                        <h3>Lanzamiento </h3>
+                        <p>Tras completar la creación de la página, y su aprobación, esta se hará pública para que usted y su público objetivo puedan visitarla con total libertad</p>
+                    </div>
+                </div>
+            </div>
+            <div class="arrow-down"></div>
+            <div class="timeline-column">
+                <div class="timeline-blocks-right">
+                    <div class="timeline-block">
+                        <h3>Planeación</h3>
+                        <p>Juntos, determinaremos que herramientas, estéticas y diseños se adecúan más a sus preferencias. Mi principal objetivo es ayudarte como marca, mientras la página sea de tu satisfacción</p>
+                    </div>
+                    <div class="timeline-block">
+                        <h3>Construcción</h3>
+                        <p>Tras confirmar que el prototipo sea de su agrado, procederé a crear la página web que usted y su marca necesitan</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer id="contactame">
+        <div class="footer-column">
+            <h3>Contacto</h3>
+            <ul>
+            <li><a href="https://github.com/CxA2003"><img src="./Assets/github_logo.png" alt="Github" maxWidth="30px"></a></li>
+            <li><a href="#"><img src="./Assets/email_logo.png" alt="Email" onclick="copyToClipboard('cfern381@fiu.edu')"></a></li>
+            </ul>
+        </div>
+        <div class="footer-column">
+            <h3>Estudios</h3>
+            <ul>
+            <li><a href="https://www.fiu.edu/"><img src="./Assets/fiu_logo.png" alt="FIU"></a></li>
+            <li><a href="https://platzi.com/"><img src="./Assets/platzi_logo.png" alt="Platzi"></a></li>
+            </ul>
+        </div>
+    </footer>
+
+
+
+</main>
+
+<!-- Rest of the page content -->
+
+<script src="script.js"></script>
+</body>
+</html>
