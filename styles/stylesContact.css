@@ -112,7 +112,7 @@ body {
   
   @media screen and (min-width:800px) {
     .main-home {
-      padding: 22rem 2rem 22rem 2rem;
+      padding: 26rem 2rem 26rem 2rem;
       background: rgba(0, 0, 0, 0.3) url(../Assets/bgContact.jpg);
       background-size:145%;
       background-attachment: fixed;
@@ -232,7 +232,7 @@ body {
   
     .study1 {
       color: white;
-      padding: 3.5rem 2.3rem 3.5rem 2.3rem;
+      padding: 7.5rem 10.3rem 7.5rem 10.3rem;
       background: rgba(0, 0, 0, 0.3) url(../Assets/contactEmail.jpg);
       background-size:125%;
       background-repeat: no-repeat;
@@ -271,7 +271,7 @@ body {
   
     .study2 {
         color: white;
-        padding: 3.5rem 2.3rem 3.5rem 2.3rem;
+        padding: 7.5rem 10.3rem 7.5rem 10.3rem;
         background: rgba(0, 0, 0, 0.3) url(../Assets/contactCall.jpg);
         background-size:125%;
         background-repeat: no-repeat;
@@ -286,7 +286,7 @@ body {
   
     .study3 {
           color: white;
-          padding: 3.5rem 2.3rem 3.5rem 2.3rem;
+          padding: 7.5rem 10.3rem 7.5rem 10.3rem;
           background: rgba(0, 0, 0, 0.3) url(../Assets/contactWhatsapp.jpg);
           background-size:125%;
           background-repeat: no-repeat;
