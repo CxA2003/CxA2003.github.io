@@ -1,8 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500;700&family=Poppins:wght@300&family=Roboto:wght@300&display=swap');
+
 /* Home CSS file */
 
 body {
   margin: 0px;
-  background-color:#f0f0f0;
+  background-color:white;
+}
+
+h1 {
+  font-family: 'Oswald', sans-serif;
+}
+
+h2 {
+  font-family: 'Roboto', sans-serif;
+}
+
+a {
+  font-family: 'Roboto', sans-serif;
+}
+
+h3 {
+  font-family: 'Roboto', sans-serif;
 }
 
 /* Navbar */
@@ -93,7 +112,7 @@ body {
 }
   
 .spacer {
-  padding: 8rem 0rem 8rem;
+  padding: 10rem 0rem 10rem 0rem;
 }
 
 button {
@@ -112,7 +131,7 @@ button:hover {
 
 @media screen and (min-width:800px) {
   .main-home {
-    padding: 18rem 2rem 18rem 2rem;
+    padding: 22rem 2rem 22rem 2rem;
     background: rgba(0, 0, 0, 0.3) url(../Assets/bgHome.gif);
     background-attachment: fixed;
     background-position: center;
@@ -157,10 +176,12 @@ button:hover {
     padding: 0rem 2rem 0rem 2rem;
     color:rgb(21, 34, 61);
     text-align: center;
+    margin: 7rem 0rem 7rem 0rem;
   }
 
   .home-body1 h1 {
     font-size: 4rem;
+    font-family: 'Oswald', sans-serif;
   }
 
   .home-body1 h2 {
@@ -186,12 +207,13 @@ button:hover {
     background-position: center center;
     background-blend-mode: darken;
     text-align: center;
-    padding: 12rem 2rem 12rem 2rem;
+    padding: 18rem 2rem 18rem 2rem;
   }
 
   .home-body2 h1 {
     font-size: 4rem;
     color:#ffffff;
+    font-family: 'Oswald', sans-serif;
   }
 
   .home-body2 h2 {
@@ -225,15 +247,19 @@ button:hover {
   .home-body3 h2 {
     color: #000000;
     font-size: 2rem;
+      font-family: 'Roboto', sans-serif;
+
   }
 
   /* Sub-section 1 */
   
   #hb3-1 {
     display: flex;
-    padding: 3rem 4rem 4rem 4rem;
+    padding: 3rem 24rem 10rem 24rem;
     justify-content: space-between;
     text-align: left;
+    gap: 3rem;
+    align-items: center;
   }
 
   #hb3-1 img{
@@ -246,11 +272,11 @@ button:hover {
   }
 
   #hb3-1-1 h1 {
-    font-size: 2rem;
+    font-size: 3rem;
   }
   
   #hb3-1-1 h2 {
-    font-size: 1.5rem;
+    font-size: 2rem;
   }
 
   /* Sub-section 2 */
@@ -259,8 +285,10 @@ button:hover {
     display: flex;
     flex-direction: row-reverse;
     justify-content: space-between;
-    padding: 4rem;
+    padding: 3rem 24rem 10rem 24rem;
     text-align: right;
+    gap: 3rem;
+    align-items: center;
   }
 
   #hb3-2 img{
@@ -273,19 +301,22 @@ button:hover {
   }
 
   #hb3-2-1 h1 {
-    font-size: 2rem;
+    font-size: 3rem;
   }
   
   #hb3-2-1 h2 {
-    font-size: 1.5rem;
+    font-size: 2rem;
   }
 
   /* Sub-section 3 */
 
   #hb3-3 {
     display: flex;
-    padding: 4rem;
+    padding: 3rem 24rem 10rem 24rem;
+    justify-content: space-between;
     text-align: left;
+    gap: 3rem;
+    align-items: center;
   }
 
   #hb3-3 img{
@@ -298,11 +329,11 @@ button:hover {
   }
 
   #hb3-3-1 h1 {
-    font-size: 2rem;
+    font-size: 3rem;
   }
   
   #hb3-3-1 h2 {
-    font-size: 1.5rem;
+    font-size: 2rem;
   }
 
   /* Sub-section 4 */
@@ -310,8 +341,11 @@ button:hover {
   #hb3-4 {
     display: flex;
     flex-direction: row-reverse;
-    padding: 4rem;
+    justify-content: space-between;
+    padding: 3rem 24rem 10rem 24rem ;
     text-align: right;
+    gap: 3rem;
+    align-items: center;
   }
 
   #hb3-4 img{
@@ -324,17 +358,17 @@ button:hover {
   }
   
   #hb3-4-1 h1 {
-    font-size: 2rem;
+    font-size: 3rem;
   }
   
   #hb3-4-1 h2 {
-    font-size: 1.5rem;
+    font-size: 2rem;
   }
   
   /* Section 4 */
   
   .home-body4 {
-    padding: 0rem 3rem 0rem 3rem;
+    padding: 10rem 3rem 10rem 3rem;
     text-align: center;
   }
 

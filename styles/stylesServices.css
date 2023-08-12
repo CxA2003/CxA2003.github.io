@@ -1,8 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500;700&family=Poppins:wght@300&family=Roboto:wght@300&display=swap');
+
 /* Home CSS file */
 
 body {
   margin: 0px;
-  background-color: white;
+  background-color:white;
+}
+
+h1 {
+  font-family: 'Oswald', sans-serif;
+}
+
+h2 {
+  font-family: 'Roboto', sans-serif;
+}
+
+a {
+  font-family: 'Roboto', sans-serif;
+}
+
+h3 {
+  font-family: 'Roboto', sans-serif;
 }
 
 /* Navbar */
@@ -93,7 +112,7 @@ body {
 }
   
 .spacer {
-  padding: 8rem 0rem 8rem;
+  padding: 10rem 0rem 10rem 0rem;
 }
   
 button {
@@ -112,7 +131,7 @@ button:hover {
 
 @media screen and (min-width:800px) {
   .main-home {
-    padding: 22rem 2rem 22rem 2rem;
+    padding: 26rem 2rem 26rem 2rem;
     background: rgba(0, 0, 0, 0.3) url(../Assets/bgServices.jpg);
     background-size:125%;
     background-attachment: fixed;
@@ -452,9 +471,8 @@ button:hover {
   /* Section 4 */
   
   .home-body4 {
-    padding: 0rem 3rem 0rem 3rem;
+    padding: 10rem 3rem 10rem 3rem;
     text-align: center;
-    padding: 1rem;
   }
 
   /* Footer */

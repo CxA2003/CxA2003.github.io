@@ -1,9 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500;700&family=Poppins:wght@300&family=Roboto:wght@300&display=swap');
+
 /* Home CSS file */
 
 body {
-    margin: 0px;
-    background-color:white ;
-  }
+  margin: 0px;
+  background-color:white;
+}
+
+h1 {
+  font-family: 'Oswald', sans-serif;
+}
+
+h2 {
+  font-family: 'Roboto', sans-serif;
+}
+
+a {
+  font-family: 'Roboto', sans-serif;
+}
+
+h3 {
+  font-family: 'Roboto', sans-serif;
+}
   
   /* Navbar */
   
@@ -387,9 +406,8 @@ body {
     /* Section 4 */
     
     .home-body4 {
-      padding: 0rem 3rem 0rem 3rem;
+      padding: 10rem 3rem 10rem 3rem;
       text-align: center;
-      padding: 1rem;
     }
   
     /* Footer */
@@ -403,7 +421,6 @@ body {
     }
   
     footer h2 {
-      font-family: Arial;
       font-size: 1.2rem;
     }
   
@@ -413,7 +430,6 @@ body {
     }
   
     footer h3 {
-      font-family: Arial, Helvetica, sans-serif;
       font-size: 1rem;
     }
   }
@@ -735,7 +751,6 @@ body {
     }
   
     footer h2 {
-      font-family: Arial;
       font-size: 1.2rem;
     }
   
@@ -745,7 +760,6 @@ body {
     }
   
     footer h3 {
-      font-family: Arial, Helvetica, sans-serif;
       font-size: 1rem;
     }
   }
@@ -914,7 +928,6 @@ body {
     }
   
     footer h2 {
-      font-family: Arial;
       font-size: 0.8rem;
     }
   
@@ -928,7 +941,6 @@ body {
     }
   
     footer h3 {
-      font-family: Arial, Helvetica, sans-serif;
       font-size: 0.6rem;
     }
   }

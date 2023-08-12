@@ -1,9 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500;700&family=Poppins:wght@300&family=Roboto:wght@300&display=swap');
+
 /* Home CSS file */
 
 body {
-    margin: 0px;
-    background-color:white;
-  }
+  margin: 0px;
+  background-color:white;
+}
+
+h1 {
+  font-family: 'Oswald', sans-serif;
+}
+
+h2 {
+  font-family: 'Roboto', sans-serif;
+}
+
+a {
+  font-family: 'Roboto', sans-serif;
+}
+
+h3 {
+  font-family: 'Roboto', sans-serif;
+}
   
   /* Navbar */
   
@@ -112,7 +131,7 @@ body {
   
   @media screen and (min-width:800px) {
     .main-home {
-      padding: 22rem 2rem 22rem 2rem;
+      padding: 26rem 2rem 26rem 2rem;
       background: rgba(0, 0, 0, 0.3) url(../Assets/bgAboutMe.jpg);
       background-size:125%;
       background-attachment: fixed;
@@ -194,6 +213,7 @@ body {
     .home-body2 h2 {
       color: #000000;
       font-size: 2rem;
+      padding: 0rem 8rem 0rem 8rem;
     }
   
     .home-body2 img {
@@ -231,7 +251,7 @@ body {
 
     .study1 {
       color: white;
-      padding: 4.5rem 2.5rem 4.5rem 2.5rem;
+      padding: 4.5rem 9.5rem 4.5rem 9.5rem;
       background: rgba(0, 0, 0, 0.3) url(../Assets/aboutMeComputerScience.jpg);
       background-size:125%;
       background-repeat: no-repeat;
@@ -262,7 +282,7 @@ body {
 
     .study2 {
       color: white;
-      padding: 4.5rem 2.5rem 4.5rem 2.5rem;
+      padding: 4.5rem 9.5rem 4.5rem 9.5rem;
       background: rgba(0, 0, 0, 0.3) url(../Assets/aboutMeAppDev.jpg);
       background-size:125%;
       background-repeat: no-repeat;
@@ -284,6 +304,7 @@ body {
       display: flex;
       flex-direction: column;
       margin-bottom: 6rem;
+      padding: 4rem 10rem;
     }
 
     .place h2 {
@@ -298,9 +319,10 @@ body {
     }
 
     .place img {
-      width: 60%;
+      width: 40%;
       height: auto;
       align-self: center;
+      margin-bottom: 2rem;
     }
 
     button {
@@ -309,15 +331,14 @@ body {
       border-radius: 16px;
       padding: 0.5rem 1rem 0.5rem 1rem;
       font-size: 1.2rem;
-      margin: 0rem 10rem 0rem 10rem;
+      margin: 0rem 25rem 0rem 25rem;
     }
     
     /* Section 4 */
     
     .home-body4 {
-      padding: 0rem 3rem 0rem 3rem;
+      padding: 10rem 3rem 10rem 3rem;
       text-align: center;
-      padding: 1rem;
     }
   
     /* Footer */
