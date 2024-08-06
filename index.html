@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Cesar's Portfolio 💼</title>
+        <meta name="description" content="A personal website used to share and connect my personal projects, experience and skills with others.">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="./styles/style.css">
+    </head>
+    <body>
+        <section class="main-title">
+            <h1>Cesar Fernandez</h1>
+        </section>
+        <section class="introduction">
+            <h2>Who am I?</h2>
+            <div class="intro-container">
+                <div>
+                    <img id="me_sit_picture" src="./assets/library_sit.png">
+                </div>
+                <div>
+                    <p>I'm César Fernández👋 A Web Developer and Data Scientist, technology <br>enthusiast, 
+                    and <a href="https://www.youtube.com/watch?v" target="_blank">video games passionate</a>!</p>
+                    <p>Thank you for giving my portfolio a look. Let me show you around!</p>
+                </div>
+            </div>
+        </section>
+        <section class="projects">
+            <h2>My Projects</h2>
+            <p>In this section you will find all the projects I've completed, as well as the ones I'm currently working on!</p>
+            <div class="carousel">
+                <button class="carousel-button prev" onclick="moveSlide(-1)">&#10094;</button>
+                <div class="projects-container">
+                    <div class="project-card">
+                        <a href="https://www.youtube.com/watch?v" target="_blank"><h3>Project 1</h3></a>
+                        <img src="./assets/placeholder.png"/>
+                        <p>Description</p>
+                    </div>
+                    <div class="project-card">
+                        <a href="https://www.youtube.com/watch?v" target="_blank"><h3>Project 2</h3></a>
+                        <img src="./assets/placeholder.png"/>
+                        <p>Description</p>
+                    </div>
+                    <div class="project-card">
+                        <a href="https://www.youtube.com/watch?v" target="_blank"><h3>Project 3</h3></a>
+                        <img src="./assets/placeholder.png"/>
+                        <p>Description</p>
+                    </div>
+                    <div class="project-card">
+                        <a href="https://www.youtube.com/watch?v" target="_blank"><h3>Project 4</h3></a>
+                        <img src="./assets/placeholder.png"/>
+                        <p>Description</p>
+                    </div>
+                </div>
+                <button class="carousel-button next" onclick="moveSlide(1)">&#10095;</button>
+            </div>
+        </section>
+        <section class="studies">
+            <h2>Academic Background</h2>
+            <p>Here you can find my academic background, including my studies and certifications!</p>
+            <div class="studies-container">
+                <div class="study-card">
+                    <h3>General Assembly</h3>
+                    <p>Data Science Bootcamp</p>
+                    <p>05/2024 - 08/2024</p>
+                </div>
+            </div>
+        </section>
+        <script src="./scripts/index.js" async defer></script>
+        <script src="./scripts/carousel.js"></script>
+    </body>
+</html>
